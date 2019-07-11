@@ -1,0 +1,36 @@
+.center {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+@media (min-width:576px) {
+    .center {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+    .center {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .center {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .center {
+        max-width: 1140px
+    }
+}
+
+@media (min-width: 1500px) {
+    .center {
+        max-width: 1460px
+    }
+}
